@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="it">
+
+    <head>
+
+        <!-- Metatags -->
+        <meta charset="UTF-8">
+        <meta http-equiv= "X-UA-Compatible" content = "IE=edge">
+        <meta name = "viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Title -->
+        <title> PDF Resources </title>
+
+        <!-- Style -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.css">
+
+        <!-- jQuery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+        
+
+    </head>
+
+    <body>
+    <style type="text/css">
+    
+    /* General */
+    
+    body { font-size: 62.5%; background:black
+   ;}
+    h1, h2, h3, h4, h5, h6, p { margin: 0; padding: 0; }
+    a { color:#1DD2E2; text-decoration: none; font-weight: bold; }
+    a:hover {text-decoration: underline;}
+    
+    /* Accordion */
+    
+    .accordion {
+    color:white;
+    background-color:black; max-width: 500px; margin: 50px auto; font-family: 'Lucida Sans' arial, sans-serif; }
+    .accordion-toggle { cursor: pointer; text-align: center; padding: 10px; font-size: 2.5em; border-bottom: 1px solid rgba(100,100,100,0.7); -webkit-transition: background-color 0.5s, ease; -moz-transition: background-color 0.5s, ease; -o-transition: background-color 0.5s, ease; -ms-transition: background-color 0.5s, ease; transition: background-color 0.5s, ease; }
+    
+    /* Toggle Effect */
+    .accordion-description { padding: 0 20px; font-size: 2em; background-color: #444; max-height: 0; overflow: hidden; transition: all 0.1s ease; opacity: 0; }
+    .accordion-description.open { padding: 20px; max-height: 400px; opacity: 1; overflow-y: scroll; }
+    </style>
+        <script type="text/javascript">
+        
+        /********** OTHER RESOURCES **********/
+        
+        // More free books are available here: 
+        // ebook-dl.com
+        // Thanks to @Ram Chandra Giri
+        
+        // Do you want to be a Game Developer?
+        // Check out this thread:
+        // https://www.sololearn.com/Discuss/448721/?ref=app
+        // Thanks to @Karl T.
+        
+        // Some PDFs
+        // https://www.sololearn.com/Discuss/510275/?ref=app
+        // Thanks to @akash
+        
+        /************************************/
+        
+        function toggle (el, op) {
+        $(el).click(function(){
+        $(op).toggleClass('open');
+        });
+        }
+        
+        $(document).ready(function(){
+        toggle( $('#toggle-c'),  $('#desc-c') )
+           toggle( $('#toggle-cpl'),  $('#desc-cpl') )
+           toggle( $('#toggle-as'),  $('#desc-as') )
+           toggle( $('#toggle-web'),  $('#desc-web') )
+           toggle( $('#toggle-csharp'),  $('#desc-csharp') )
+         toggle( $('#toggle-fsharp'),  $('#desc-fsharp') )
+        toggle( $('#toggle-java'),  $('#desc-java') )   
+        toggle( $('#toggle-kotlin'),  $('#desc-kotlin') )
+        toggle( $('#toggle-lua'),  $('#desc-lua') ) 
+           toggle( $('#toggle-php'),  $('#desc-php') )    
+           toggle( $('#toggle-python'),  $('#desc-python') )
+        toggle( $('#toggle-swift'),  $('#desc-swift') ) 
+        toggle( $('#toggle-ruby'),  $('#desc-ruby') )  
+        });
+        
+        /******************************************
+        *                                         *                     *
+        *                                         *
+        ******************************************/
+        
+        /*
+        
+        ---------------------------------------------
+        
+
+        
+        ---------------------------------------------
+        
+        */
+        </script>
+        <div class="accordion">
+
+            <div class="accordion_as">
+                <h4 class = "accordion-toggle" id = "toggle-as"> Assembly </h4>
+                <p class = "accordion-description" id = "desc-as"> 
+                    <a href="http://www.ic.unicamp.br/~pannain/mc404/aulas/pdfs/Art%20Of%20Intel%20x86%20Assembly.pdf">The Art of Assembly Language</a> <br> <br>
+                    <a href="http://www.pravaraengg.org.in/Download/MA/assembly_tutorial.pdf">Assembly Language Tutorial</a> <br> <br>
+                    <a href="http://faculty.petra.ac.id/indi/files/Assembly%20Language%20step%20by%20step.pdf">Assembly Language:
+Step-by-Step</a> <br> <br>
+                    <a href="http://www.avr-asm-download.de/beginner_en.pdf">Beginners Introduction to the
+Assembly Language of ATMEL­-AVR­-Microprocessors - Gerhard Schmidt</a> <br> <br>
+                </p>
+            </div>
+
+            <div class="accordion_c">
+                <h4 class = "accordion-toggle" id = "toggle-c"> C </h4>
+                <p class = "accordion-description" id = "desc-c"> 
+                    <a href="http://www-personal.acfr.usyd.edu.au/tbailey/ctext/ctext.pdf">An Introduction to the C Programming Language</a> <br> <br>
+                    <a href="https://www.tutorialspoint.com/cprogramming/cprogramming_tutorial.pdf">Learn C programming - Tutorials Point</a> <br> <br>
+                    <a href="http://markburgess.org/CTutorial/C-Tut-4.02.pdf">C Programming Tutorial - Mark Burgess</a> <br> <br>
+                    <a href="http://publications.gbdirect.co.uk/c_book/thecbook.pdf">The C Book - Mike Banahan, Declan Brady, Mark Doran</a> <br> <br>
+                    <a href="http://alvand.basu.ac.ir/~dezfoulian/files/Programming/Prentice%20Hall%20-%20The%20C%20Programming%20Language-%20Brian%20W.%20Kernighan,%20Dennis%20M.%20Ritchie,%202nd%20ed.,%20ISBN%20.pdf"> The C programming Language - Brian W. Kernighan and Dennis M. Ritchie </a> <br> <br>
+                </p>
+            </div>
+
+            <div class="accordion_c++">
+                <h4 class = "accordion-toggle" id = "toggle-cpl"> C++ </h4>
+                <p class = "accordion-description" id = "desc-cpl"> 
+                     <a href="http://ptgmedia.pearsoncmg.com/images/9780321992789/samplepages/9780321992789.pdf">Programming Principles Using C++ </a> <br> <br> 
+                     <a href="http://www.micc.unifi.it/bertini/download/programmazione/TICPP-2nd-ed-Vol-one-printed.pdf"> Thinking in C++ Volume 1 </a> <br> <br>
+                     <a href="http://vergil.chemistry.gatech.edu/resources/programming/pdf/TIC2Vtwo.pdf"> Thinking in C++ Volume 2 </a> <br> <br>
+                     <a href="https://is.muni.cz/www/408176/38744863/The_C__Programming_Language__Stroustrup_.pdf">The C++ Programming Language - 3rd Edition Bjarne Stroustrup</a> <br> <br>
+                     <a href="https://github.com/BestSonny/materials/blob/master/The%20C%2B%2B%20Programming%20Language%20%5B4th%20Edition%5D%20-%20Bjarne%20Stroustrup.pdf">The C++ Programming Language, 4th Edition - Bjarne Stroustrup</a> <br> <br>
+                     <a href="http://www.cs.ukzn.ac.za/~hughm/ap/notes/apNotes.pdf">Advanced Programming with C++</a> <br> <br>
+                     <a href="http://giant.pourri.ch/Graphics%20Programming%20Black%20Book/Graphics%20Programming%20Black%20Book.pdf">Graphics Programming Black Book</a> <br> <br>
+                     <a href="https://tfetimes.com/wp-content/uploads/2015/06/0735714347_Creating_Games_in_C-_A_Step-by-Step_Guide.pdf">Creating Games in C++, A Step-by-Step Guide</a> <br> <br>
+                     <a href="https://tfetimes.com/wp-content/uploads/2015/04/Beginning_Cpp_Through_Game_Programming.pdf">Beginning C++ Through Game Programming, 3rd Edition</a> 
+                </p>
+            </div>
+
+            <div class="accordion_web">
+                <h4 class = "accordion-toggle" id = "toggle-web"> HTML / CSS / Javascript </h4>
+                <p class = "accordion-description" id = "desc-web"> 
+                     <a href="http://ptgmedia.pearsoncmg.com/images/9780672333323/samplepages/0672333325.pdf">HTML, CSS
+and JavaScript - Julie C. Meloni </a> <br> <br>
+                     <a href="http://www.itp.uzh.ch/~suzanne/ebooks/The%20Web%20Book-A4-HM.pdf">The Web Book - Robert Schifreen </a> <br> <br>
+                     <a href="https://alfredojimenezad.files.wordpress.com/2013/04/html_xhtml_and_css_all-in-one_for_dummies_2nd_edition.pdf">HTML XHTML and CSS for Dummies</a> <br> <br>
+                     <a href="http://wtf.tw/ref/duckett.pdf">Design and Build Websites - Jon Duckett</a> <br> <br>
+                     <a href="http://www.daoudisamir.com/references/vs_ebooks/html5_css3.pdf">Programming
+in HTML5 with
+JavaScript and
+CSS3 - Glenn Johnson </a> <br> <br>
+                        <a href="http://www.avis.it/userfiles/file/Dont_Make_Me_Think_A_Common_Sense_Approach_to_Web_Usability_2nd_Ed_2005.pdf">Don't Make me Think: A Common Sense Approach to Web Usability</a> <br> <br>
+                        <a href="http://ptgmedia.pearsoncmg.com/images/9780321898388/samplepages/0321898389.pdf">The WEB Game Developer's Cookbook</a> <br> <br>
+                        <a href="https://retrosnob.files.wordpress.com/2014/10/foundation-game-design-with-html5-and-javascript-v413hav-1.pdf">Foundation Game Design with HTML5 and JavaScript: </a> <br> <br>
+                        <a href="https://www.lib.montana.edu/~jason/talks/lita-html5.pdf">Building Web Applications with
+HTML5, CSS3, and Javascript - Jason Clark</a> <br> <br>
+                        <a href="http://www.reedbushey.com/60Learning%20Web%20Design%204th%20Edition.pdf">Learning Web Design 4th Edition</a> <br> <br>
+                        <a href="https://speckyboy.com/free-web-design-ebooks/"> Other resources ... </a>
+                </p>
+            </div>
+
+            <div class="accordion_csharp">
+                <h4 class = "accordion-toggle" id = "toggle-csharp"> C# </h4>
+                <p class = "accordion-description" id = "desc-csharp"> 
+                     <a href="https://magliveli.files.wordpress.com/2010/11/1-8-programming-c.pdf"> Programming C# 4.0 </a> <br> <br>
+                     <a href="http://www.headfirstlabs.com/books//hfcsharp/hfcsharp_free_book.pdf">Head First C# Book </a> <br> <br>
+                     <a href=" https://www.pdf-archive.com/2014/08/16/c-in-depth-3rd-edition-jon-skeet/">C# in Depth, 3rd Edition </a> <br> <br>
+                     <a href="http://www.redbrick.dcu.ie/~r_dogg/fff/Beginning%20C%23%20Object-Oriented%20Programming%20%5B2011%5D.pdf">Beginning C#: Object Oriented Programming</a> <br> <br>
+                     <a href="https://www.docdroid.net/UKocmTz/arcsynthesis.pdf.html">Learning Modern 3D Graphics Programming:</a> <br> <br>
+                     <a href="http://184.168.171.185/BOOKS/DVD%201/Beginning%20CSharp%20Game%20Programming%20-%20Ron%20Penton.pdf">Beginning C# Game Programming</a> <br> <br>
+                     <a href="http://www.introprogramming.info/wp-content/uploads/2013/07/Books/CSharpEn/Fundamentals-of-Computer-Programming-with-CSharp-Nakov-eBook-v2013.pdf"> Fundamentals of Computer Programming with C# </a>
+                     
+                </p>
+            </div>
+
+            <div class="accordion_fsharp">
+                <h4 class = "accordion-toggle" id = "toggle-fsharp"> F# </h4>
+                <p class = "accordion-description" id = "desc-fsharp"> 
+                     <a href="http://fsharp.org/specs/language-spec/3.0/FSharpSpec-3.0-final.pdf"> The F# 3.0 </a> <br> <br>
+                     <a href="http://www.clicktocontinue.com/books/Programming.F.Sharp.pdf"> Programming F# </a> <br> <br>
+                     <a href="http://www.secretgeek.net/content/fsharp_leonb.pdf"> F# Eye for the C# guy </a>
+                </p>
+            </div>
+
+            <div class="accordion_java">
+                <h4 class = "accordion-toggle" id = "toggle-java"> Java </h4>
+                <p class = "accordion-description" id = "desc-java"> 
+                     <a href="http://iiti.ac.in/people/~tanimad/JavaTheCompleteReference.pdf"> Java Seventh Edition </a> <br> <br>
+                     <a href="http://sd.blackball.lv/library/Thinking_in_Java_4th_edition.pdf"> Thinking in Java </a> <br> <br>
+                     <a href="https://zimslifeintcs.files.wordpress.com/2011/12/head-first-java-2nd-edition.pdf"> Head First Java </a> <br> <br>
+                     <a href="http://www.oracle.com/events/global/en/java-outreach/resources/java-a-beginners-guide-1720064.pdf"> Java Fundamentals - Oracle </a> <br> <br>
+                     <a href="http://math.hws.edu/eck/cs124/downloads/javanotes6-linked.pdf">Introduction to Programming Using Java</a> <br> <br>
+                     <a href="http://www.cs.cmu.edu/afs/cs.cmu.edu/user/gchen/www/download/java/LearnJava.pdf">Teach Yourself</a> <br> <br>
+                     <a href="https://imcs.dvfu.ru/lib.int/docs/Languages/Java/Java%202D%20Graphics.pdf">    Java 2D Graphics </a> <br> <br>
+                     <a href="http://www.reedbushey.com/106Killer%20Game%20Programming%20in%20Java.pdf">Killer Game Programming in Java</a> <br> <br>
+                     <a href="http://www.ebooksbucket.com/uploads/itprogramming/java/Java_in_a_Nutshell_6th_Edition.pdf">Java in a Nutshell, 6th Edition</a>  <br> <br>
+                     <a href="https://github.com/PlamenStilyianov/Java/blob/master/JDK8/Java%208%20The%20Complete%20Reference%20Ninth%20Edition/Java%208%20The%20Complete%20Reference%20Ninth%20Edition.pdf">Java Complete Reference Ninth Edition </a> <br><br>
+                     <a href="http://www.java67.com/2013/11/10-free-java-programing-books-download-PDF-HTML.html">Other Resources ...</a>
+                </p>
+            </div>
+            <div class="accordion_kotlin">
+                <h4 class = "accordion-toggle" id = "toggle-kotlin"> Kotlin </h4>
+                <p class = "accordion-description" id = "desc-kotlin"> 
+                <a href="https://kotlinlang.org/docs/kotlin-docs.pdf"> Full Kotlin Reference </a> <br> <br>
+
+<a href=" http://samples.leanpub.com/kotlin-for-android-developers-sample.pdf "> Kotlin For Android  </a> <br> <br>
+
+<a href="http://wiki.jvmlangsummit.com/images/6/6e/Jetbrains-Kotlin.pdf"> Jetbrains Kotlin </a> <br> <br>
+
+<a href="http://yowconference.com.au/slides/yowconnected2016/Gouline-KotlinPragmaticLanguageAndroid.pdf">  Kotlin Pragmatic Language </a> <br> <br>
+
+<a href="http://www.oracle.com/technetwork/java/jvmls2015-breslav-2637899.pdf">  Flexible Types in Kotlin </a> <br> <br>
+
+<a href="https://github.com/panxl6/Kotlin-in-action/blob/master/ebook/Kotlin_in_Action_v12_MEAP.pdf">  Kotlin in Action </a>
+                
+                </p>
+            </div>
+            <div class="accordion_lua">
+                <h4 class = "accordion-toggle" id = "toggle-lua"> Lua </h4>
+                <p class = "accordion-description" id = "desc-lua"> 
+                    <a href="https://www.lua.org/ftp/refman-5.0.pdf"> Lua 5.0 </a> <br> <br>
+                    <a href="http://underpop.free.fr/l/lua/docs/programming-in-lua-first-edition.pdf"> Programming in Lua (first edition) </a> <br> <br>
+                    <a href="https://doc.lagout.org/programmation/Lua/Programming%20in%20Lua.pdf"> Programming in Lua (second edition) </a> <br> <br>
+                    <a href="http://gotocon.com/dl/jaoo_aus2008/slides/Roberto_LUA.pdf"> Learn Lua in X minutes </a> <br> <br>
+                    <a href="http://crypto.cs.mcgill.ca/~simonpie/webdav/ipad/EBook/Programmation/Beginning%20Lua%20Programming.pdf"> Beginning Lua Programming </a>
+                </p>
+            </div>
+
+            <div class="accordion_php">
+                <h4 class = "accordion-toggle" id = "toggle-php"> PHP / MySQL </h4>
+                <p class = "accordion-description" id = "desc-php"> 
+                     <a href="http://pdf.th7.cn/down/files/1502/Modern%20PHP.pdf"> Modern PHP </a> <br> <br>
+                     <a href="http://cdn.phpreferencebook.com/wp-content/uploads/2008/12/php_reference_-_beginner_to_intermediate_php5.pdf"> PHP Reference</a> <br> <br>
+                     <a href="http://cs.petrsu.ru/~musen/php/2013/Books/Beginning%20PHP%205.3%20by%20Matt%20Doyle.pdf"> Beginning PHP</a>  <br> <br>
+                     <a href="https://downloads.mysql.com/docs/apis-php-en.pdf"> MySQL and PHP </a> <br> <br>
+                     <a href="http://www.infoap.utcluj.ro/multi/programming_PHP.pdf">Programming PHP </a> <br> <br>
+                     <a href="https://ptgmedia.pearsoncmg.com/images/013147149X/downloads/013147149X_book.pdf">PHP5 Power Programming </a> <br> <br>
+                     <a href="https://www.tutorialspoint.com/mysql/mysql_tutorial.pdf"> MySQL - TutorialsPoint</a> <br> <br>
+                     <a href="http://www.fis.unipr.it/pub/doc/mysql/manuale_mysql.pdf"> MySQL Reference Manual</a> <br> <br>
+                     <a href="https://imcs.dvfu.ru/lib.int/docs/Databases/MySQL/MySQL%20Bible.pdf"> MySQL Bible</a>
+                </p>
+            </div>
+
+            <div class="accordion_python">
+                <h4 class = "accordion-toggle" id = "toggle-python"> Python </h4>
+                <p class = "accordion-description" id = "desc-python"> 
+                      
+                     <a href="http://files.meetup.com/18552511/Learn%20Python%20The%20Hard%20Way%203rd%20Edition%20V413HAV.pdf">Learn Python the Hard Way, 3rd Edition </a> <br> <br> 
+                 <a href="http://stock.ethop.org/pdf/python/Learning%20Python,%205th%20Edition.pdf"> Learning Python, 5th edition </a> <br> <br>
+                     <a href="https://inventwithpython.com/makinggames.pdf"> Making Games with Python and Pygame </a> <br> <br> 
+                     <a href="http://greenteapress.com/thinkpython/thinkpython.pdf"> Think Python </a> <br> <br> 
+                     <a href="http://www.davekuhlman.org/python_book_01.pdf">A Python Book - Dave Kuhlman </a> <br> <br> 
+                     <a href="https://www.cs.uky.edu/~keen/115/Haltermanpythonbook.pdf"> Learning to program with Python </a> <br> <br> 
+                     <a href="http://1.droppdf.com/files/5iHzx/automate-the-boring-stuff-with-python-2015-.pdf"> Automate Boring Stuff With Python </a> <br> <br>
+                     <a href="http://files.swaroopch.com/python/byte_of_python.pdf"> A Byte of Python </a>
+                </p>
+            </div>
+
+            <div class="accordion_ruby">
+                <h4 class = "accordion-toggle" id = "toggle-ruby"> Ruby </h4>
+                <p class = "accordion-description" id = "desc-ruby"> 
+                     <a href="https://7chan.org/pr/src/ruby.pdf">Programming Ruby 1.9</a> <br> <br>
+                     <a href="http://slav0nic.org.ua/static/books/ruby/Pragmatic%20programmers%20-%20programming%20ruby,%202nd%20ed%20-%202005%20-%20(by%20laxxuss).pdf">Programming Ruby 2.0</a> <br> <br>
+                     <a href="http://f.jamo.io/ebooks/RUBY%2520ON%2520RAILS%2520TUTORIAL.pdf">Ruby on Rails 3 Tutorial</a> <br> <br>
+                     <a href="http://www.sapphiresteel.com/IMG/pdf/LittleBookOfRuby.pdf">The little book of Ruby</a> <br> <br>
+                     <a href="http://data.ceh.vn/Ebook/ebooks.shahed.biz/RUBY/Book%20of%20Ruby.pdf">The book of Ruby</a> <br> <br>
+                     <a href="https://www.tutorialspoint.com/ruby/ruby_tutorial.pdf">Ruby Programming Language</a> <br><br> <a href "https://devnull.li/~jerojasro/twgr2e/The_Well-Grounded_Ru.pdf">The Well Grounded Rubyist</a>
+                </p>
+            </div>
+
+            <div class="accordion_swift">
+                <h4 class = "accordion-toggle" id = "toggle-swift"> Swift </h4>
+                <p class = "accordion-description" id = "desc-swift"> 
+                     <a href="http://carlosicaza.com/swiftbooks/SwiftLanguage.pdf">The Swift Programming Language</a> <br> <br>
+                     <a href="http://www.tutorialspoint.com/swift/swift_tutorial.pdf">Swift TutorialsPoint</a> <br> <br>
+                     <a href="https://www.bignerdranch.com/documents/swift-prereading-assignment.pdf">Swift Programming</a>
+                </p>
+            </div>
+
+        </div>
+
+    </body>
+
+</html>
